@@ -8,14 +8,8 @@ test:
 
 amazon: 
   service: S3 
-<<<<<<< HEAD
   access_key_id: <%= ENV['AWS_S3_ACCESS_KEY_ID'] %> 
   secret_access_key: <%= ENV['AWS_S3_SECRET_ACCESS_KEY'] %> 
   region: "us-east-1" 
   bucket: <%= ENV['PHOTO_UPLOAD_BUCKET'] %>
-=======
-  access_key_id: <%= ENV['AKIARDU5LCUNVNOXIANT'] %> 
-  secret_access_key: <%= ENV['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'] %> 
-  region: "us-east-1" 
-  bucket: <%= ENV['bewd-twitter-advanced'] %>
->>>>>>> bedf5b41e2907179e3e3948d26417cb90e18fc43
+
