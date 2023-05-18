@@ -35,8 +35,8 @@ gem 'webrick', '~> 1.7'
 gem 'mail', '>= 2.8.0.rc1'
 
 # Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
-
+gem 'mini_magick', '~> 4.8'
+gem 'aws-sdk', '~> 3.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
